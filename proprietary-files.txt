@@ -119,7 +119,7 @@ vendor/firmware/txse2.bin
 
 ### SAMSUNG_SLSI_CONFIGSTORE
 vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service
-vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service
+vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc
 vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
 
 ### FINGERPRINT
