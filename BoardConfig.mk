@@ -17,9 +17,9 @@
 include device/samsung/a21s-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/a21sks/BoardConfigVendor.mk
+include vendor/samsung/a21s/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/a21sks
+DEVICE_PATH := device/samsung/a21s
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
