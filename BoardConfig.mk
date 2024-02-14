@@ -30,6 +30,3 @@ TARGET_KERNEL_CONFIG := lineage_defconfig
 ### VENDOR PROPS
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-### SYSTEM PROPS
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
