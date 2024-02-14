@@ -28,9 +28,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 DEVICE_PATH := device/samsung/a21s
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
-
 ### NFC and Secure Element packages
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
