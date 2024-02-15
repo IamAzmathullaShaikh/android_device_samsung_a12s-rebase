@@ -24,9 +24,6 @@ DEVICE_PATH := device/samsung/a21s
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
-## Kernel
-TARGET_KERNEL_CONFIG := lineage_defconfig
-
 ### VENDOR PROPS
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
