@@ -1,6 +1,7 @@
 # Proprietary files - from Samsung package version A217FXXS8DWC2, unless pinned
 
 system/lib64/libaptX_encoder.so
+vendor/recovery-from-boot.p
 
 ### RIL
 system/bin/eris
