@@ -26,6 +26,7 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 ## Kernel
 TARGET_KERNEL_CONFIG := lineage_defconfig
+KERNEL_LD := LD=ld.lld
 
 ### VENDOR PROPS
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
