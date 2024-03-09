@@ -22,22 +22,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 ## Inherit from a21s device
 $(call inherit-product, device/samsung/a21s/device.mk)
 
-## Boot Animation
-TARGET_SCREEN_HEIGHT := 1600
-TARGET_SCREEN_WIDTH := 720
-
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common aosp stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a21s
-PRODUCT_NAME := lineage_a21s
+PRODUCT_NAME := aosp_a21s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A217F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
-
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+

@@ -1,0 +1,37 @@
+prebuilt_etc {
+   name: "init.gps.rc",
+   src: "etc/init.gps.rc",
+   filename_from_src: true,
+   sub_dir: "init",
+   vendor: true,
+}
+
+prebuilt_etc {
+   name: "init.fingerprint.rc",
+   src: "etc/init.fingerprint.rc",
+   filename_from_src: true,
+   sub_dir: "init",
+   vendor: true,
+}
+
+prebuilt_etc {
+   name: "libnfc-nci.conf",
+   src: "etc/libnfc-nci.conf",
+   filename_from_src: true,
+   vendor: true,
+}
+
+prebuilt_etc {
+   name: "libnfc-sec-vendor.conf",
+   src: "etc/libnfc-sec-vendor.conf",
+   filename_from_src: true,
+   vendor: true,
+}
+
+prebuilt_etc {
+   name: "vaultkeeper_common.rc",
+   src: "etc/vaultkeeper_common.rc",
+   filename_from_src: true,
+   sub_dir: "init",
+   vendor: true,
+}
