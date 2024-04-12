@@ -25,7 +25,7 @@ DEVICE_PATH := device/samsung/a21s
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 ## Kernel
-TARGET_KERNEL_CONFIG := lineage_defconfig
+TARGET_KERNEL_CONFIG := exynos850-a21snsxx_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
