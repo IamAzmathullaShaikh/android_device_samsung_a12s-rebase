@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/gta4xlwifi.mk
+    $(LOCAL_DIR)/a21s.mk
 
 COMMON_LUNCH_CHOICES := \
-    gta4xlwifi-eng \
-    gta4xlwifi-user \
-    gta4xlwifi-userdebug
+    a21s-eng \
+    a21s-user \
+    a21s-userdebug
