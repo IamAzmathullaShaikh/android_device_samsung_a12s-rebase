@@ -15,7 +15,7 @@
 #
 
 # Inherit from the common tree
-$(call inherit-product, device/samsung/a21s-common/common.mk)
+$(call inherit-product, device/samsung/exynos850-common/common.mk)
 
 # Inherit proprietary files
 $(call inherit-product, vendor/samsung/a21s/a21s-vendor.mk)

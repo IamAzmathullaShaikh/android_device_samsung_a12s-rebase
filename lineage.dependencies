@@ -1,7 +1,7 @@
 [
     {
-        "repository": "samsungexynos850/android_device_samsung_a21s-common",
-        "target_path": "device/samsung/a21s-common",
-        "branch": "lineage-20"
+        "repository": "samsungexynos850/android_device_samsung_exynos850-common",
+        "target_path": "device/samsung/exynos850-common",
+        "branch": "lineage-20.0"
     }
 ]
