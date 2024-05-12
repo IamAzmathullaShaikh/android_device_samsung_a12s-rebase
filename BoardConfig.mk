@@ -68,6 +68,13 @@ TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USERIMAGES_USE_F2FS := true
 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/init/fstab.exynos850:$(TARGET_COPY_OUT_RAMDISK)/fstab.exynos850 \
+    $(DEVICE_PATH)/rootdir/init/fstab.exynos850:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.exynos850
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/init/fstab.exynos850
+
 ### VENDOR PROPS
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
