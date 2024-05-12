@@ -3,5 +3,10 @@
         "repository": "samsungexynos850/android_device_samsung_exynos850-common",
         "target_path": "device/samsung/exynos850-common",
         "branch": "lineage-20.0"
+    },
+	{
+        "repository": "samsungexynos850/android_kernel_samsung_exynos850",
+        "target_path": "kernel/samsung/exynos850",
+        "branch": "lineage-20.0"
     }
 ]

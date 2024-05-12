@@ -25,7 +25,7 @@ DEVICE_PATH := device/samsung/a21s
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 ## Kernel
-TARGET_KERNEL_CONFIG := kawa_defconfig
+TARGET_KERNEL_CONFIG := exynos850-a21snsxx_defconfig
 KERNEL_LD := LD=ld.lld
 
 TARGET_OTA_ASSERT_DEVICE := a21s,a21snsxx
