@@ -8,7 +8,7 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/hw/audio.primary.exynos9611.so)
+        vendor/lib/hw/audio.primary.exynos850.so)
             "${PATCHELF}" --remove-needed libaudio_soundtrigger.so "${2}"
             ;;
     esac
@@ -22,8 +22,8 @@ fi
 
 set -e
 
-export DEVICE=gta4xlwifi
-export DEVICE_COMMON=gta4xl-common
+export DEVICE=a21s
+export DEVICE_COMMON=a21s-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

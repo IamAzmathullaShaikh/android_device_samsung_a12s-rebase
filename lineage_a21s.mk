@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-## Inherit from gta4xlwifi device
-$(call inherit-product, device/samsung/gta4xlwifi/device.mk)
+## Inherit from a21s device
+$(call inherit-product, device/samsung/a21s/device.mk)
 
 ## Boot Animation
 TARGET_BOOTANIMATION_HALF_RES := true
@@ -27,16 +27,16 @@ TARGET_SCREEN_HEIGHT := 2000
 TARGET_SCREEN_WIDTH := 1200
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := gta4xlwifi
-PRODUCT_NAME := lineage_gta4xlwifi
+PRODUCT_DEVICE := a21s
+PRODUCT_NAME := lineage_a21s
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-P610
+PRODUCT_MODEL := SM-A217F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
 
