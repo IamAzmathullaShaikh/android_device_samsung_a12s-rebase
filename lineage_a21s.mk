@@ -59,3 +59,17 @@ PRODUCT_PRODUCT_PROPERTIES += \
 ifneq ($(LINEAGE_DEV_CERTIFICATE),)
     PRODUCT_DEFAULT_DEV_CERTIFICATE := $(LINEAGE_DEV_CERTIFICATE)
 endif
+
+
+# Adb
+ifeq ($(TARGET_BUILD_VARIANT), userdebug, eng)
+# /vendor/default.prop is force-setting ro.adb.secure=1
+# Get rid of that by overriding it in /product on eng builds
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+	persist.service.adb.enable=1 \
+	persist.service.debuggable=1 \
+    persist.sys.usb.config=mtp,adb \
+    persist.vendor.usb.config=mtp,adb
+endif
