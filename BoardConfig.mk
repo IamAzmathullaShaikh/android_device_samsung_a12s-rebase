@@ -14,18 +14,18 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/a21s-common/BoardConfigCommon.mk
+include device/samsung/exynos850-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/a21s/BoardConfigVendor.mk
+include vendor/samsung/a12s/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/a21s
+DEVICE_PATH := device/samsung/a12s
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 ## OTA TARGET
-TARGET_OTA_ASSERT_DEVICE := a21s,a21snsxx
+TARGET_OTA_ASSERT_DEVICE := a12s,a12snsxx
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
